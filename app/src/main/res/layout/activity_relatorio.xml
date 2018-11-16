@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mayron.boryrockacademia.Relatorio">
+
+    <ImageView
+        android:id="@+id/imgRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25sp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/txtRelatorio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apresentado Histórico de lesão no tornozelo: aumentar carga no mínimo a cada 4 meses."
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/imgRelatorio"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/txtRelatorio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apresentado bom desenvolvimento nos musculos dos braços: executar séries que intensifiquem carga nesses músculos"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtRelatorio1"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/txtRelatorio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar ao treinamento atividades anaeróbicas para aumento da resistência física."
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtRelatorio2"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mayron.boryrockacademia.InformacoesAcademia">
+
+
+    <ImageView
+        android:id="@+id/imagInfoGym"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/bodyrock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imagInfoGym"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+
+        android:text="Body Rock Musculação um ambiente confortável e atendimento orientado a todos os alunos para um ótimo resultado ao treinamento.
+\n\n
+Body Rock Personal Trainer os treinamentos são totalmente individualizados para alcançar um maior feedback ao treinamento e atingir maiores resultados nos objetivos propostos.
+\n\n
+Praça Dr. Augusto Gonçalves, 146, Itaúna - MG, 15º andar, na cobertura..
+\n\n
+De 6:00 as 21:00 hrs!!!" />
+
+
+</RelativeLayout>
